@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleconsulta - Dermatología</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            background-image: url('https://i.imgur.com/0i8eAqD.png'); /* Fondo dermatología */
+            background-size: 300px;
+            background-repeat: repeat;
+            background-color: #fff6f4;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            width: 350px;
+        }
+
+        h1 {
+            color: #d07b4a;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: #d07b4a;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #a95f36;
+        }
+
+        .back {
+            margin-top: 15px;
+            background: #333;
+        }
+
+        .back:hover {
+            background: #111;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Teleconsulta Dermatología</h1>
+        <button class="btn" onclick="startCall()">Iniciar Teleconsulta</button>
+
+        <a href="Menu.html"><button class="btn back">← Volver al menú</button></a>
+    </div>
+
+    <script>
+        function startCall() {
+            alert("Conectando con el dermatólogo...");
+        }
+    </script>
+
+</body>
+</html>
